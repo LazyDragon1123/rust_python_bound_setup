@@ -1,0 +1,7 @@
+version: "3"
+services:
+  template:
+    build: .
+    volumes:
+      - ./:/src
+    tty: true
